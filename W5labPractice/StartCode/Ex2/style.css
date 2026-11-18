@@ -1,0 +1,36 @@
+.navbar{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    gap:10px;
+    align-items: center;
+    padding: 10px;
+    
+}
+h1{
+    display: flex;
+    align-items: flex-start;
+}
+.rightnav{
+    display: flex;
+    justify-content: end;
+    gap:20px;
+}
+.menu-btn{
+    display: none;
+}
+@media(max-width:768px){
+  .rightnav{
+    display: none;
+    top: 60px;
+    right: 20px;
+    background: #444;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  .menu-btn{
+    display: block;
+  }
+ 
+}

@@ -1,0 +1,154 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #477f8b;
+    margin: 0;
+    padding: 30px;
+}
+
+.container {
+    width: 100%;
+    max-width: 650px;
+    margin: auto;
+    background-color: rgb(237, 231, 231);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.form-header {
+    background-color: #f0f0f0;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.form-header h2{
+    margin: 0;
+    color: #555;
+    font-size: 22px;
+}
+
+.form-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    padding: 20px;
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.full-width {
+    grid-column: span 2;
+}
+
+.form-group > label {
+    color: #20a68b;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.form-group label span {
+    color: #e74c3c;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+select,
+textarea {
+    width: 100%;
+    padding: 9px;
+    border: 1px solid #e1d5d5;
+    border-radius: 3px;
+    font-size: 12px;
+    outline: none;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    border-color: #20a68b;
+}
+
+.options {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 5px;
+    font-size: 12px;
+}
+
+.options label {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    color: #555;
+    font-weight: normal;
+}
+
+.income-group {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.income-group input {
+    flex: 1;
+    cursor: pointer;
+}
+
+.income-value {
+    background-color: #20a68b;
+    color: white;
+    padding: 5px;
+    font-size: 12px;
+    border-radius: 3px;
+}
+
+input[type="file"] {
+    font-size: 12px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.form-footer {
+    background-color: #f8f8f8;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: flex-end;
+    border-top: 1px solid #ddd;
+}
+
+button {
+    background-color: #20a68b;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #168b74;
+}
+
+
+@media (max-width: 500px) {
+    .form-container {
+        grid-template-columns: 1fr;
+    }
+
+    .full-width {
+        grid-column: span 1;
+    }
+}

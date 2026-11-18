@@ -1,0 +1,25 @@
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.big{
+    display: block;
+    background-color: blueviolet;
+    color: white;
+    padding: 30px 50px;
+    font-size: 30px;
+}
+.small{
+    background-color: aqua;
+    display: none;
+}
+@media only screen and (max-width:600px){
+.big{
+    display: none;
+}
+.small{
+    display: block;
+}
+}
