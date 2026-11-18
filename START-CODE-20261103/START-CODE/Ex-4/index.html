@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="dashboard-container">
+    
+    <aside class="sidebar">
+      <div class="logo">
+        <span class="logo-icon">SG</span>
+        <span class="logo-text">Study Guide</span>
+      </div>
+      <nav class="nav-menu">
+        <a href="#" class="nav-item active">Dashboard</a>
+        <a href="#" class="nav-item">Classes</a>
+        <a href="#" class="nav-item">Resources</a>
+        <a href="#" class="nav-item">Learning plan</a>
+        <a href="#" class="nav-item">Chat </a>
+        <a href="#" class="nav-item">Settings</a>
+      </nav>
+      <div class="upgrade-card">
+        <p>Upgrade to <strong>PRO</strong> for more resources.</p>
+        <button class="btn-upgrade">Upgrade</button>
+      </div>
+    </aside>
+
+    <main class="main-content">
+      <header class="content-header">
+        <h1>Dashboard</h1>
+      </header>
+
+      <section class="banner">
+        <div class="banner-text">
+          <h2>Welcome back to SG!</h2>
+          <p>You've learned <strong>70%</strong> of your goal this week! Keep it up and improve your results!</p>
+        </div>
+      </section>
+
+      <section class="analytics-grid">
+        <div class="card latest-results">
+          <div class="card-header">
+            <h3>Latest results</h3>
+          </div>
+          <ul class="results-list">
+            <li><span>Unit 5 - Technology</span> <progress value="20" max="100"></progress> <span>20%</span></li>
+            <li><span>Unit 12 - Ecology</span> <progress value="44" max="100"></progress> <span>44%</span></li>
+            <li><span>Unit 9 - Real estate</span> <progress value="60" max="100"></progress> <span>60%</span></li>
+            <li><span>Unit 8 - Education</span> <progress value="15" max="100"></progress> <span>15%</span></li>
+          </ul>
+        </div>
+
+        <div class="card time-spent">
+          <div class="card-header">
+            <h3>Time spent on learning</h3>
+            <select><option>Last week</option></select>
+          </div>
+          <div class="chart-bar">
+           
+            <div class="bar-col"><div class="bar" style="height: 60%;"></div><span>Mon</span></div>
+            <div class="bar-col"><div class="bar" style="height: 40%;"></div><span>Tue</span></div>
+            <div class="bar-col"><div class="bar" style="height: 80%;"></div><span>Wed</span></div>
+            <div class="bar-col"><div class="bar" style="height: 50%;"></div><span>Thu</span></div>
+            <div class="bar-col"><div class="bar" style="height: 70%;"></div><span>Fri</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="courses-section">
+        <div class="section-header">
+          <h3>Your courses</h3>
+        </div>
+        <div class="courses-grid">
+          <div class="course-card purple">
+            <span class="badge-level">B2</span>
+            <div>
+              <p>Business English</p>
+              <h4>Grammar</h4>
+            </div>
+          </div>
+          <div class="course-card blue">
+            <span class="badge-level">B2</span>
+            <div>
+              <p>Common English</p>
+              <h4>Phrasal verbs</h4>
+            </div>
+          </div>
+          <div class="course-card red">
+            <span class="badge-level">C1</span>
+            <div>
+              <p>Business Spanish</p>
+              <h4>Vocabulary</h4>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+  </div>
+</body>
+</html>
