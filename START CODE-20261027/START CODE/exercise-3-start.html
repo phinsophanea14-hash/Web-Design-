@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise3</title>
+    <style>
+        body{
+            display:flex;
+            flex-direction: column;
+            gap: 1em;
+        }
+        .header{
+            background-color: blue;
+            height: 40px;
+            border-radius: 5px;
+            color: white;
+
+        }
+        .footer{
+            background-color: blue;
+            height: 40px;
+            border-radius: 5px;
+            color: white;
+        }
+        .All{
+            display: flex;
+            gap:10px;
+            margin-top: 10px 0;
+
+        }
+        .items{
+            flex-grow: 1;
+            background-color: green;
+            display: flex;
+            flex-wrap: wrap;
+            padding: 15px;
+            justify-items: space-evenly;
+            gap : 10px;
+            border-radius: 5px;
+
+
+        }
+        .box{
+            background-color: darkseagreen;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width:100px;
+            height: 100px;
+            border-radius: 8px;
+          
+
+
+        }
+        .sidebar{
+            background-color: orange;
+            width: 200px;
+            border-radius: 5px;
+            
+        }
+
+    </style>
+</head>
+<body>
+    <div class="header">header</div>
+
+    <div class="All">
+        <div class="items">
+            <div class="box">1</div>
+            <div class="box">2</div>
+            <div class="box">3</div>
+            <div class="box">4</div>
+            <div class="box">5</div>
+            <div class="box">6</div>
+            <div class="box">7</div>
+            <div class="box">8</div>
+            <div class="box">9</div>
+            <div class="box">10</div>
+            <div class="box">11</div>
+        </div>
+        <div class="sidebar">side bar</div>
+    </div>
+    
+    
+</div>
+    <div class="footer">footer</div>
+</body>
+</html>
