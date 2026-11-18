@@ -1,0 +1,123 @@
+/* General Page Setup */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #222222;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.profile-container {
+  background-color: #ffffff;
+  width: 100%;
+  max-width: 380px;
+  border-radius: 12px;
+  padding: 28px 24px;
+  text-align: center;
+  position: relative;
+  border: 1px solid #4a90e2;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+.more-options {
+  position:absolute;
+  top: 20px;
+  left: 20px;
+  color: #aaaaaa;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.profile-img-wrapper {
+  position: relative;
+  width: 110px;
+  height: 110px;
+  margin: 0 auto 16px auto; 
+}
+
+.profile-img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+
+.profile-name {
+  font-size: 22px;
+  color: #333333;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+footer{
+  margin-bottom: 6px;
+  font-size: 16px;
+  color: #888888;
+}
+
+.stats-container {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+  padding: 0 10px;
+}
+
+.stat-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.stat-label {
+  font-size: 13px;
+  color: #888888;
+  margin-bottom: 6px;
+}
+
+.stat-value {
+  font-size: 18px;
+  font-weight: 700;
+  color: #444444;
+}
+
+.profile-bio {
+  font-size: 12px;
+  color: #888888;
+  line-height: 1.5;
+  margin-bottom: 20px; 
+  padding: 0 10px;
+}
+
+.action-btn {
+  color: #777777;
+  border: 1px solid #d0d5dd;
+  border-radius: 25px;
+  padding: 12px 0;
+  width: 100%;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.button-group {
+  display: flex;
+  gap: 10px; 
+  width: 100%;
+  margin-top: 20px;
+}
+
+.action-btn:hover {
+  background-color: rgb(183, 51, 132);
+  color: #ffffff;
+  padding: 12px 0;
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 25px;
+  cursor: pointer;
+  border: 1px solid #d0d5dd;
+ 
+}

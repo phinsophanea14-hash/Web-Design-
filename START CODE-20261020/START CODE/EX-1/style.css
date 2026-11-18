@@ -1,0 +1,30 @@
+body {
+    background: grey;
+    font-family: sans-serif;
+}
+
+#B1 {
+    background-color : green;
+    border-radius: 30px;
+    color: aliceblue;
+
+}
+#B1:hover{
+    background: lightgreen;
+}
+#B2{
+    background-color: yellow;
+    border-radius: 30px;
+}
+#B3{
+    background-color: blueviolet;
+     border-radius: 30px;
+     color: aliceblue;
+
+}
+.B {
+    margin: 30px;
+    padding :20px;
+    background-color: aliceblue;
+    border-radius: 10px;
+}

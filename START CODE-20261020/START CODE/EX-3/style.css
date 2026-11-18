@@ -1,0 +1,12 @@
+/* TODO */
+#Btn {
+    background-color: pink;
+    border-color: rgb(168, 24, 84);
+    color:aliceblue;
+    border-radius: 8px;
+}
+
+#Btn:hover{
+background-color:rgb(102, 29, 58);
+border-color: blueviolet;
+}
